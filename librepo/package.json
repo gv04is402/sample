@@ -1,0 +1,22 @@
+{
+  "name": "librepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module" : "dist/index.mjs",
+  "svelte" : "src/index.js",
+  "scripts": {
+    "build" : "rollup -c",
+    "dev" : "rollup -c -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "rollup": "^2.75.7",
+    "rollup-plugin-svelte": "^7.1.0",
+    "svelte": "^3.48.0"
+  }
+}
