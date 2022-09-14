@@ -4,11 +4,13 @@
   "description": "",
   "main": "build/scss/variable.scss",
   "scripts": {
+    "build": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "gulp": "^4.0.2",
     "style-dictionary": "^3.7.1"
   }
 }

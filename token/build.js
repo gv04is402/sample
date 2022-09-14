@@ -7,13 +7,13 @@ const style_dictionary = require("style-dictionary").extend({
   platforms: {
     scss: {
       buildPath: "build/scss/",
-      transforms: ["attribute/cti"],
+      transforms: ["attribute/cti", "name/cti/kebab"],
       files: [
         {
           destination: "variable.scss",
           format: "scss/variables",
           options: {
-            showFileHeader: false,
+            showFileHeader: true,
             outputReferences: true,
           },
         },
@@ -21,6 +21,5 @@ const style_dictionary = require("style-dictionary").extend({
     },
   },
 });
+module.exports = style_dictionary;
 
-style_dictionary.buildAllPlatforms();
-console.log(style_dictionary);
