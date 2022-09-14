@@ -2,8 +2,11 @@
   "name": "ils",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/esm/index.js",
   "scripts": {
+    "clean": "rm -rf ./lib",
+    "build": "npm run clean && npm run build:esm",
+    "build:esm": "tsc -p ./configs/tsconfig.esm.json && mv lib/esm/index.js lib/esm/index.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -12,5 +15,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "files": [
+    "lib/**/*"
+  ]
 }
