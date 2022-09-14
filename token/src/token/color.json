@@ -1,30 +1,30 @@
 {
-    "color": {
-        "red-cool": {
-            "5": {
-                "value": "#f8eff1"
-            },
-            "5v": {
-                "value": "#fff2f5"
-            },
-            "10": {
-                "value": "#f3e1e4"
-            },
-            "10v": {
-                "value": "#f8dfe2"
-            },
-            "10v-secondary": {
-                "lighter": {
-                    "name": "color-red-cool-10v-secondary",
-                    "value": "{color.red-cool.10v.value}"
-                }
-            },
-            "20": {
-                "value": "#ecbec6"
-            },
-            "20v": {
-                "value": "#f8b9c5"
-            }
+  "color": {
+    "red-cool": {
+      "5": {
+        "value": "#f8eff1"
+      },
+      "5v": {
+        "value": "#fff2f5"
+      },
+      "10": {
+        "value": "#f3e1e4"
+      },
+      "10v": {
+        "value": "#f8dfe2"
+      },
+      "10v-secondary": {
+        "lighter": {
+          "name": "color-red-cool-10v-secondary",
+          "value": "{color.red-cool.10v.value}"
         }
+      },
+      "20": {
+        "value": "#ecbec6"
+      },
+      "20v": {
+        "value": "#f8b9c5"
+      }
     }
+  }
 }
